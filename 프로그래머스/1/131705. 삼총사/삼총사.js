@@ -1,5 +1,4 @@
 function solution(number) {
-    // num을 순회해서 3개를 더했을 때 0이 되어야 함
     const len = number.length;
     let answer = 0;
     
