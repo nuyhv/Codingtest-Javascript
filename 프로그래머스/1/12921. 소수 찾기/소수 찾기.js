@@ -3,7 +3,7 @@ function solution(n) {
 
     arr[0] = false, arr[1] = false;
 
-    for (let i = 2; i * i <= n; i++) {
+    for (let i = 2; i <= Math.sqrt(n); i++) {
         if (arr[i]) {
             for (let j = i * i; j <= n; j += i) {
                 arr[j] = false;
