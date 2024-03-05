@@ -12,8 +12,8 @@ function solution(polynomial) {
     if (x === 0) {
         return `${num}`;
     } else if (num === 0) {
-        return x === 1 ? 'x' : `${x}x`;
+        return `${x === 1 ? '' : x}x`;
     } else {
-        return x === 1 ? `x + ${num}` : `${x}x + ${num}`;
+        return `${x === 1 ? '' : x}x + ${num}`;
     }
 }
