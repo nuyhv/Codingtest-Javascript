@@ -3,15 +3,14 @@ function solution(numbers, target) {
     const len = numbers.length;
     
     const dfs = (i, cur) => {
-        if (i === len) {
+        if (i < len) {
+            dfs(i + 1, cur + numbers[i]);
+            dfs(i + 1, cur - numbers[i]);
+        } else {
             if (cur === target) {
                 answer++;
-                return;    
-            } else return;       
+            }
         }
-        
-        dfs(i + 1, cur + numbers[i]);
-        dfs(i + 1, cur - numbers[i]);
     }
     
     dfs(0, 0);
