@@ -1,5 +1,5 @@
 function solution(numbers, target) {
-    var answer = 0;
+    let answer = 0;
     const len = numbers.length;
     
     const dfs = (i, cur) => {
@@ -7,9 +7,7 @@ function solution(numbers, target) {
             dfs(i + 1, cur + numbers[i]);
             dfs(i + 1, cur - numbers[i]);
         } else {
-            if (cur === target) {
-                answer++;
-            }
+            if (cur === target) answer++;
         }
     }
     
