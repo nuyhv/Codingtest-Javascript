@@ -1,9 +1,10 @@
 function solution(food) {
-    let str = '';
+    let ans = '';
     
     for (let i = 1; i < food.length; i++) {
-        str += String(i).repeat((food[i] % 2 === 0 ? food[i] : food[i] - 1) / 2);
+        ans += String(i).repeat((food[i] % 2 === 0 ? food[i] : food[i] - 1) / 2);
+        console.log(ans)
     }
     
-    return str.concat(0).concat([...str].reduce((acc, char) => char + acc));
+    return ans.concat(0).concat([...ans].reverse().join(''));
 }
