@@ -1,11 +1,11 @@
 function solution(a, b, n) {
-    let total = 0;
+    let ans = 0;
 
      while (n >= a) {
         const payBack = n - a + b;
-        total += b;
+        ans += b;
         n = payBack;
     }
 
-    return total;
+    return ans;
 }
