@@ -1,16 +1,17 @@
 function solution(name, yearning, photo) {
-    let result = [];
+    let ans = [];
     
     for (const people of photo) {
         let score = 0;
         
         for (const person of people) {
-            const idx = name.indexOf(person);
+            const idx = name.indexOf(person)
             
-            if (idx !== -1) score += yearning[idx];
+            if (idx !== -1) score += yearning[idx]
         }
-        result.push(score);
+        ans.push(score)
     }
     
-    return result;
+    console.log(name, yearning, photo, ans)
+    return ans;
 }
