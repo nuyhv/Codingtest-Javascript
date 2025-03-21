@@ -1,9 +1,10 @@
 function solution(price, money, count) {
-    let i = 1;
-    let paid = 0;
-    while (i <= count) {
-        paid += price * i;
-        i++
+    let total = 0;
+    
+    for (let i = 1; i <= count; i++) {
+        total += price * i;
+        console.log(total)
     }
-    return paid > money ? paid - money : 0;
+
+    return money >= total ? 0 : Math.abs(money - total);
 }
