@@ -1,3 +1,9 @@
 function solution(x, n) {
-    return Array(n).fill(x).map((num, i) => num * (i + 1));
+    let arr = [x];
+    
+    for (let i = 2; i <= n; i++) {
+        arr.push(x * i);
+    }
+    
+    return arr;
 }
