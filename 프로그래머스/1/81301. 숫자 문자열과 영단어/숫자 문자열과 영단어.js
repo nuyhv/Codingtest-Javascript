@@ -19,19 +19,16 @@ function solution(s) {
         const char = s[i];
 
         if (isNaN(char)) {
-            // 현재 문자가 숫자가 아닌 경우
             currentWord += char;
 
             if (digitToWord[currentWord]) {
-                // 현재 문자열이 숫자에 해당하는 영단어인 경우
                 answer += digitToWord[currentWord];
-                currentWord = ''; // 초기화
+                currentWord = '';
             }
         } else {
-            // 현재 문자가 숫자인 경우
             answer += char;
         }
     }
 
-    return parseInt(answer, 10); // 문자열을 정수로 변환
+    return parseInt(answer, 10);
 }
