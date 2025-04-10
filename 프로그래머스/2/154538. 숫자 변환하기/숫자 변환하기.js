@@ -22,7 +22,6 @@ function solution(x, y, n) {
                 }
             }
         }
-
         currentLevel = nextLevel;
     }
 
