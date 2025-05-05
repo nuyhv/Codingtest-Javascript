@@ -1,7 +1,7 @@
 
 
 function solution(schedules, timelogs, startday) {
-    var answer = 0;
+    let answer = 0;
     function hhmmToMinutes(hhmm) {
         let hours = Math.floor(hhmm / 100); 
         let minutes = hhmm % 100;          
