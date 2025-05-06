@@ -1,4 +1,3 @@
--- 코드를 작성해주세요
 WITH YEARLY_MAX AS (
     SELECT 
         YEAR(DIFFERENTIATION_DATE) AS YEAR, 
