@@ -13,7 +13,6 @@ function solution(participant, completion) {
             list.set(name, count - 1);
         }
     }
-
     const answer = [...list.keys()].toString();
     
     return answer;
