@@ -1,4 +1,3 @@
--- 코드를 입력하세요
 WITH RECURSIVE HOURS AS (
     SELECT 0 AS HOUR
     UNION ALL
