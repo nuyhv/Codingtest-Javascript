@@ -6,5 +6,5 @@ function solution(array, commands) {
         ans.push(array.slice(i - 1, j).sort((a, b) => a - b)[k - 1]);
     }
     
-    return ans;
+    return ans
 }
