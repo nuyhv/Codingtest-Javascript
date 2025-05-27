@@ -15,5 +15,5 @@ function solution(participant, completion) {
     }
     const answer = [...list.keys()].toString();
     
-    return answer;
+    return answer
 }
