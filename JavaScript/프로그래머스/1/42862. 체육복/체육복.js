@@ -15,6 +15,5 @@ function solution(n, lost, reserve) {
         }
     }
     
-    console.log(clothes);
     return clothes.filter(num => num > 0).length;
 }
