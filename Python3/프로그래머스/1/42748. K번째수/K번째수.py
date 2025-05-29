@@ -6,4 +6,4 @@ def solution(array, commands):
         
         answer.append(sorted(array[i-1:j])[k - 1])
         
-    return answer;
+    return answer
