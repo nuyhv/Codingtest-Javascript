@@ -93,5 +93,5 @@ function solution(scoville, K) {
         return -1;
     }
 
-    return mixCount;
+    return mixCount
 }
