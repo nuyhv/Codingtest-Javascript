@@ -29,5 +29,5 @@ function solution(video_len, pos, op_start, op_end, commands) {
         }
     }
     
-    return convertMS(pos_sec);
+    return convertMS(pos_sec)
 }
