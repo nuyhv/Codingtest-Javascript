@@ -31,5 +31,5 @@ function solution(name) {
         return 0;
     }
     
-    return answer;
+    return answer
 }
