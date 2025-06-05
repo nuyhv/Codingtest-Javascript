@@ -10,5 +10,5 @@ function solution(n)
         else n /= 2;
     }
     
-    return battery;
+    return battery
 }
