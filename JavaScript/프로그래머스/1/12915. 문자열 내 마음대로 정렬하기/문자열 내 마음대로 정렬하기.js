@@ -4,6 +4,6 @@ function solution(strings, n) {
             return (a > b) ? 1 : -1;
         }
         
-        return (a[n] > b[n]) ? 1 : -1;
+        return (a[n] > b[n]) ? 1 : -1
     });
 }
