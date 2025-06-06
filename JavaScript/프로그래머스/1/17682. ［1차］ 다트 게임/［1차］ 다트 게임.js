@@ -7,7 +7,6 @@ function solution(dartResult) {
         const nextEl = dartResult[i + 1];
         
         if (!isNaN(Number(el))) {
-            // el이 숫자인 경우
             if (el === '1' && nextEl === '0') {
                 temp = 10;
                 i++;
@@ -15,7 +14,6 @@ function solution(dartResult) {
                 temp = Number(el);
             }
         } else {
-            // el이 문자인 경우
             switch (el) {
                 case 'S': arr.push(temp); break;
                 case 'D': arr.push(Math.pow(temp, 2)); break;
