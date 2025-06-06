@@ -21,5 +21,5 @@ const solution = (N, stages) => {
     
     const result = failureRates.map(item => item.stage);
     
-    return result;
+    return result
 };
