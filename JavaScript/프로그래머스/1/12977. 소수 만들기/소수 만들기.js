@@ -25,5 +25,5 @@ function solution(nums) {
         if (isPrime(num)) count++;
     }
     
-    return count;
+    return count
 }
