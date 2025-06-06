@@ -16,5 +16,5 @@ function solution(n, arr1, arr2) {
         return str;
     });
     
-    return answer;
+    return answer
 }
