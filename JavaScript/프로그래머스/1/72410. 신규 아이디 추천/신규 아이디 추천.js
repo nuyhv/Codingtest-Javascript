@@ -20,5 +20,5 @@ function solution(new_id) {
         lowerStr += lowerStr[lowerStr.length - 1];
     }
 
-    return lowerStr;
+    return lowerStr
 }
