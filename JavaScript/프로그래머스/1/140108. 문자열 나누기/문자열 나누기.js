@@ -16,5 +16,5 @@ function solution(s) {
     
     if (stack.length !== 0) count ++;
     
-    return count;
+    return count
 }
