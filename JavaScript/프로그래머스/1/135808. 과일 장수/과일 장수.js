@@ -7,5 +7,5 @@ function solution(k, m, score) {
         if (temp.length === m) box.push(Math.min(...temp));
     }
     
-    return box.reduce((acc, cur) => acc + cur, 0) * m;
+    return box.reduce((acc, cur) => acc + cur, 0) * m
 }
