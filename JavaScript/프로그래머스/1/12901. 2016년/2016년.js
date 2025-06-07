@@ -8,5 +8,5 @@ function solution(a, b) {
 
     const dayOfWeekNumber = startDate.getDay();
     
-    return days[dayOfWeekNumber];
+    return days[dayOfWeekNumber]
 }
