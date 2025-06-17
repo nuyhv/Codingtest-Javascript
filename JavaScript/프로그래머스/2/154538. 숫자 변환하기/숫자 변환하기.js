@@ -25,5 +25,5 @@ function solution(x, y, n) {
         currentLevel = nextLevel;
     }
 
-    return -1;
+    return -1
 }
