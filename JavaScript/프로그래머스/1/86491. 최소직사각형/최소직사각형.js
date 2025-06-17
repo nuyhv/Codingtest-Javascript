@@ -10,5 +10,5 @@ function solution(sizes) {
         mh = Math.max(mh, minSide);
     }
 
-    return mw * mh;
+    return mw * mh
 }
