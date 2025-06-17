@@ -8,5 +8,5 @@ function solution(n, m, section) {
             edge = sec + (m - 1);
         }
     }
-    return count;
+    return count
 }
