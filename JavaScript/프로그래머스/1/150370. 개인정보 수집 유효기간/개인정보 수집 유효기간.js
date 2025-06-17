@@ -18,5 +18,5 @@ function solution(today, terms, privacies) {
             expired.push(i + 1);
         }
     }
-    return expired;
+    return expired
 }
