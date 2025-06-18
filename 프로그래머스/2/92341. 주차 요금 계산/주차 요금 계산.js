@@ -1,8 +1,8 @@
 function solution(fees, records) {
     var answer = [];
     const [기본시간, 기본요금, 단위시간, 단위요금] = fees;
-    const parkingTime = {};  
-    const inTime = {};      
+    const parkingTime = {};
+    const inTime = {};
 
     const getMin = (time) => {
         const [hours, minutes] = time.split(':').map(Number);
@@ -36,5 +36,7 @@ function solution(fees, records) {
                    .sort((a, b) => a.localeCompare(b))
                    .map((num) => calculateFee(parkingTime[num]));
 
-    return answer;
+    console.log(parkingTime, inTime);
+    
+    return answer
 }
