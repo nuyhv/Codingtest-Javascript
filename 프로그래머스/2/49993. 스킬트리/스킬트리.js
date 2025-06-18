@@ -10,5 +10,5 @@ function solution(skill, skill_trees) {
             answer++;
         }
     }    
-    return answer;
+    return answer
 }
