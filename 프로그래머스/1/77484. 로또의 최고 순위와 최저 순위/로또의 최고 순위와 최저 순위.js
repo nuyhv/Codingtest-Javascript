@@ -8,7 +8,7 @@ function solution(lottos, win_nums) {
             if (win_nums.includes(num)) nums.push(num);
         } else nums.push(num);
     }
-    // max는 배열 다세고 min은 0 빼고 셈
+
     const max = nums.length;
     const min = nums.filter(num => num !== 0).length;
     
