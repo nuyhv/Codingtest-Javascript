@@ -1,6 +1,4 @@
 function solution(X, Y) {
-    // 1. X와 Y중 공통되는 수를 배열에 추가하고 내림차순으로 정렬
-    // 2. 존재하지 않을 경우 -1을 return
     let xMap = Array(10).fill(0);
     let yMap = Array(10).fill(0);
     let answer = '';
