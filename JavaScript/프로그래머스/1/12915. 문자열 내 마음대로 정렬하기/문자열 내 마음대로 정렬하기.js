@@ -5,5 +5,5 @@ function solution(strings, n) {
         }
         
         return (a[n] > b[n]) ? 1 : -1
-    });
+    })
 }
