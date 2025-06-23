@@ -29,5 +29,5 @@ function solution(numbers) {
         }
     });
 
-    return primeCount;
+    return primeCount
 }
