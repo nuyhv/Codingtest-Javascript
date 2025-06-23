@@ -17,6 +17,6 @@ function solution(n, words) {
         usedWords.add(word); 
         prevWord = word; 
     }
-
-    return [0, 0]; 
+    
+    return [0, 0]
 }
