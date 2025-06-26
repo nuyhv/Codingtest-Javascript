@@ -1,5 +1,5 @@
 function solution(today, terms, privacies) {
-    const term = {};
+    const term = {}
     const expired = [];
     
     terms.forEach(data => {
