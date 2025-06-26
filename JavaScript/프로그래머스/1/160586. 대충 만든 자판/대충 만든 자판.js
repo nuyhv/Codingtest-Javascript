@@ -17,5 +17,5 @@ function solution(keymap, targets) {
     }
 
     console.log(map);
-    return answer;
+    return answer
 }
