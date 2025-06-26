@@ -1,8 +1,8 @@
 function solution(s, skip, index) {
-    const str = [...'abcdefghijklmnopqrstuvwxyz'].filter(str => ![...skip].includes(str));
+    const ans = [...'abcdefghijklmnopqrstuvwxyz'].filter(str => ![...skip].includes(str));
 
     return [...s].map(el => {
-        const strIdx = str.indexOf(el);
-        return strIdx !== -1 ? str[(strIdx + index) % str.length] : el;
-    }).join('');
+        const strIdx = ans.indexOf(el);
+        return strIdx !== -1 ? ans[(strIdx + index) % ans.length] : el;
+    }).join('')
 }
