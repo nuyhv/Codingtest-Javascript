@@ -11,5 +11,5 @@ function solution(ingredient) {
         }
     }
 
-    return count;
+    return count
 }
