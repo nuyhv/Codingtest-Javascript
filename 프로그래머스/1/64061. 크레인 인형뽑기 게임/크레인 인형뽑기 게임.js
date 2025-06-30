@@ -32,5 +32,5 @@ function solution(board, moves) {
         }
     }
 
-    return count;
+    return count
 }
