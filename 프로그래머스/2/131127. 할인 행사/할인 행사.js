@@ -25,8 +25,8 @@ function solution(want, number, discount) {
             }
         }
 
-        if (isMatch) count++;
+        if (isMatch) count++
     }
 
-    return count;
+    return count
 }
