@@ -16,5 +16,5 @@ function solution(wallpaper) {
         }
     }
 
-    return [luy, lux, rdy, rdx];
+    return [luy, lux, rdy, rdx]
 }
