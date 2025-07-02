@@ -8,5 +8,5 @@ function solution(a, b) {
         i++
     }
     
-    return ans;
+    return ans
 }
