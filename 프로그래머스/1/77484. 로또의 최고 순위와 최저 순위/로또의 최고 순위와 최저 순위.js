@@ -23,5 +23,5 @@ function solution(lottos, win_nums) {
         }
     }
     
-    return [getPrice(max), getPrice(min)];
+    return [getPrice(max), getPrice(min)]
 }
