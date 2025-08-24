@@ -9,5 +9,5 @@ function solution(word) {
         pos += value[i] * index + 1;
     }
 
-    return pos;
+    return pos
 }
