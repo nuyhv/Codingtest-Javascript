@@ -1,6 +1,6 @@
 function solution(s) {
-    let stack = [];
-    let count = 0;
+    let stack = []
+    let count = 0
     
     for(let i = 0; i < s.length; i += 1){
         stack.push(s[i]);
