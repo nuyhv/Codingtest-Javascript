@@ -10,5 +10,5 @@ function solution(t, p) {
     for (const num of arr) {
         if (num <= Number(p)) count++;
     }
-    return count;
+    return count
 }
