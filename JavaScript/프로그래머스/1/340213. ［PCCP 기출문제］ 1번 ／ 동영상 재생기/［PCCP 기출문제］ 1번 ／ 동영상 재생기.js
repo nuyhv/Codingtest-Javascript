@@ -1,7 +1,7 @@
 function solution(video_len, pos, op_start, op_end, commands) {
     const convertSec = (str) => {
         const [m, s] = str.split(':');
-        return Number(m * 60) + Number(s);
+        return Number(m * 60) + Number(s)
     }
     
     const convertMS = (sec) => {
