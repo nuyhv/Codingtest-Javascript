@@ -1,5 +1,5 @@
 function solution(players, callings) {
-    const playerIndex = {};
+    const playerIndex = {}
 
     for (let i = 0; i < players.length; i++) {
         playerIndex[players[i]] = i;
