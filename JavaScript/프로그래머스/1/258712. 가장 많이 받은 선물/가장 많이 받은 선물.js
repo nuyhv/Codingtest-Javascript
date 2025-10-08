@@ -1,7 +1,7 @@
 function solution(friends, gifts) {
     const len = friends.length;
     const giftRecord = Array.from(Array(len), () => Array(len).fill(0));
-    const bonus = Array(len).fill(0);
+    const bonus = Array(len).fill(0)
 
     for (const gift of gifts) {
         const [giver, receiver] = gift.split(' ');
