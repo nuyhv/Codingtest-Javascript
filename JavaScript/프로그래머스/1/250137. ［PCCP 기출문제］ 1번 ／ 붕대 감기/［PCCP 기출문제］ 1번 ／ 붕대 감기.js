@@ -1,5 +1,5 @@
 function solution(bandage, health, attacks) {
-    let curHealth = health;
+    let curHealth = health
     let maxTurn = attacks[attacks.length - 1][0];
     let turn = 0;
     let success = 0;
