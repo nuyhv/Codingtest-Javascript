@@ -1,5 +1,5 @@
 function solution(name, yearning, photo) {
-    let ans = [];
+    let ans = []
     
     for (const people of photo) {
         let score = 0;
