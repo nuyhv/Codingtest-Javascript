@@ -8,7 +8,7 @@ function solution(t, p) {
     }
     
     for (const num of arr) {
-        if (num <= Number(p)) count++;
+        if (num <= Number(p)) count++
     }
     return count
 }
