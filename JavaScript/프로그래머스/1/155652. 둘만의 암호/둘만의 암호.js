@@ -1,5 +1,5 @@
 function solution(s, skip, index) {
-    const ans = [...'abcdefghijklmnopqrstuvwxyz'].filter(str => ![...skip].includes(str));
+    const ans = [...'abcdefghijklmnopqrstuvwxyz'].filter(str => ![...skip].includes(str))
 
     return [...s].map(el => {
         const strIdx = ans.indexOf(el);
