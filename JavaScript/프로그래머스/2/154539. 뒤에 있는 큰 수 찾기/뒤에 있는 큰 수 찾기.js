@@ -5,7 +5,7 @@ function solution(numbers) {
         while (stack && numbers[stack[stack.length - 1]] < numbers[i]){
             answer[stack.pop()] = numbers[i];
         }
-        stack.push(i);
+        stack.push(i)
     }
     return answer
 }
