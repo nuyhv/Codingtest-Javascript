@@ -16,6 +16,5 @@ function solution(keymap, targets) {
         answer.push(count || -1);
     }
 
-    console.log(map);
     return answer
 }
