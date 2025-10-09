@@ -1,7 +1,7 @@
 function solution(x, y, n) {
     if (x === y) return 0
 
-    let currentLevel = new Set([x]);
+    let currentLevel = new Set([x])
     const visited = new Set([x]);
     let operations = 0;
 
