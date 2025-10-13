@@ -1,6 +1,6 @@
 const getFailure = (stage, stages) => {
-    const totalPlayers = stages.filter(num => num >= stage).length;
-    const failedPlayers = stages.filter(num => num === stage).length;
+    const totalPlayers = stages.filter(num => num >= stage).length
+    const failedPlayers = stages.filter(num => num === stage).length
     
     if (totalPlayers === 0) {
         return 0;
