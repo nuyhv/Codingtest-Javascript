@@ -2,7 +2,7 @@ function solution(players, callings) {
     const playerIndex = {}
 
     for (let i = 0; i < players.length; i++) {
-        playerIndex[players[i]] = i;
+        playerIndex[players[i]] = i
     }
 
     for (let i = 0; i < callings.length; i++) {
