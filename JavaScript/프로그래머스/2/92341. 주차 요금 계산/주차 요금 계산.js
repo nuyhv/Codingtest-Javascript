@@ -1,7 +1,7 @@
 function solution(fees, records) {
     var answer = [];
-    const [기본시간, 기본요금, 단위시간, 단위요금] = fees;
-    const parkingTime = {};
+    const [기본시간, 기본요금, 단위시간, 단위요금] = fees
+    const parkingTime = {}
     const inTime = {};
 
     const getMin = (time) => {
@@ -38,5 +38,5 @@ function solution(fees, records) {
 
     console.log(parkingTime, inTime);
     
-    return answer;
+    return answer
 }
