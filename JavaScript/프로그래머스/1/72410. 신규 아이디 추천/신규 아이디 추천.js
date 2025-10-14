@@ -1,7 +1,7 @@
 function solution(new_id) {
-    let lowerStr = new_id.toLowerCase();
+    let lowerStr = new_id.toLowerCase()
 
-    lowerStr = lowerStr.replace(/[^a-z0-9-_.]/g, '');
+    lowerStr = lowerStr.replace(/[^a-z0-9-_.]/g, '')
 
     lowerStr = lowerStr.replace(/\.{2,}/g, '.');
 
