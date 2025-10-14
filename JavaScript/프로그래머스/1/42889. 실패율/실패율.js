@@ -3,7 +3,7 @@ const getFailure = (stage, stages) => {
     const failedPlayers = stages.filter(num => num === stage).length
     
     if (totalPlayers === 0) {
-        return 0;
+        return 0
     } else {
         return failedPlayers / totalPlayers;
     }
