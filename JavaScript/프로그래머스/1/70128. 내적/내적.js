@@ -1,5 +1,5 @@
 function solution(a, b) {
-    const len = a.length;
+    const len = a.length
     let ans = 0;
     
     let i = 0;
@@ -8,5 +8,5 @@ function solution(a, b) {
         i++
     }
     
-    return ans;
+    return ans
 }
