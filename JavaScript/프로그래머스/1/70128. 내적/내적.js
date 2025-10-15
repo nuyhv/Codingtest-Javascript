@@ -1,6 +1,6 @@
 function solution(a, b) {
     const len = a.length
-    let ans = 0;
+    let ans = 0
     
     let i = 0;
     while (i < len) {
