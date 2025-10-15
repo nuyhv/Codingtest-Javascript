@@ -1,5 +1,5 @@
 function solution(want, number, discount) {
-    let wants = {};
+    let wants = {}
     for (let i = 0; i < want.length; i++) {
         wants[want[i]] = number[i];
     }
@@ -25,7 +25,7 @@ function solution(want, number, discount) {
             }
         }
 
-        if (isMatch) count++;
+        if (isMatch) count++
     }
 
     return count
