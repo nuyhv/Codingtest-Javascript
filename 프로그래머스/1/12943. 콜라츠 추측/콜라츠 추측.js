@@ -1,5 +1,5 @@
 function solution(num) {
-    let count = 0;
+    let count = 0
     
     while (num !== 1) {
         if (num % 2 === 0) {
