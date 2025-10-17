@@ -1,5 +1,5 @@
 function solution(x) {
-    let sum = 0;
+    let sum = 0
     let n = x;
     
     while (n > 0) {
