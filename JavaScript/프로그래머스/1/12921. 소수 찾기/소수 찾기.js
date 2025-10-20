@@ -1,5 +1,5 @@
 function solution(n) {
-    let arr = Array(n + 1).fill(true);
+    let arr = Array(n + 1).fill(true)
 
     arr[0] = false, arr[1] = false;
 
