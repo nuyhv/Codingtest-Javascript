@@ -3,7 +3,7 @@ function solution(s, n) {
         .split('')
         .map(char => {
             if (char === ' ') {
-                return char;
+                return char
             }
 
             if (char >= 'A' && char <= 'Z') {
