@@ -1,8 +1,8 @@
 function solution(s) {
-    const stack = [];
+    const stack = []
     for (const char of s) {
         if (stack.length > 0 && stack[stack.length - 1] === char) {
-            stack.pop();
+            stack.pop()
         } else {
             stack.push(char);
         }
