@@ -1,5 +1,5 @@
 function solution(nums) {
-    let count = 0;
+    let count = 0
     let arr = [];
     
     const isPrime = (n) => {
