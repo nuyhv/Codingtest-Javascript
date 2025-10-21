@@ -1,5 +1,5 @@
 function solution(n, words) {
-    const usedWords = new Set();
+    const usedWords = new Set()
     let prevWord = ""; 
 
     for (let i = 0; i < words.length; i++) {
