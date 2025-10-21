@@ -1,6 +1,6 @@
 function solution(n)
 {
-    let battery = 0;
+    let battery = 0
     
     while (n !== 0) {
         if (n % 2 === 1) {
