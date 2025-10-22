@@ -6,7 +6,7 @@ function solution(a, b) {
     startDate.setMonth(a - 1);
     startDate.setDate(b);
 
-    const dayOfWeekNumber = startDate.getDay();
+    const dayOfWeekNumber = startDate.getDay()
     
     return days[dayOfWeekNumber]
 }
