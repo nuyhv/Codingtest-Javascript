@@ -1,6 +1,6 @@
 function solution(nums) {
     let count = 0
-    let arr = [];
+    let arr = []
     
     const isPrime = (n) => {
         if (n === 1) return false;
