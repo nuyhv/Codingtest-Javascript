@@ -11,5 +11,5 @@ function solution(n) {
         }
     }
     
-    return arr.filter(el => el).length;
+    return arr.filter(el => el).length
 }
