@@ -1,5 +1,5 @@
 function solution(d, budget) {
-    d.sort((a, b) => a - b);
+    d.sort((a, b) => a - b)
 
     let count = 0;
     for (const num of d) {
