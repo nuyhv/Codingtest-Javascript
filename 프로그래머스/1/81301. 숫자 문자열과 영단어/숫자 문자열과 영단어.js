@@ -10,9 +10,9 @@ function solution(s) {
         'seven': '7',
         'eight': '8',
         'nine': '9'
-    };
+    }
 
-    let answer = '';
+    let answer = ''
     let currentWord = '';
 
     for (let i = 0; i < s.length; i++) {
