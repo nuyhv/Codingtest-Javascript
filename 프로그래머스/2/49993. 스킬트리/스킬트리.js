@@ -1,5 +1,5 @@
 function solution(skill, skill_trees) {
-    var answer = 0;
+    var answer = 0
     
     const skillArr = skill.split('');
     
