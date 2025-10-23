@@ -1,6 +1,6 @@
 function solution(lottos, win_nums) {
-    lottos.sort((a, b) => a - b);
-    win_nums.sort((a, b) => a - b);
+    lottos.sort((a, b) => a - b)
+    win_nums.sort((a, b) => a - b)
     let nums = [];
     
     for (const num of lottos) {
