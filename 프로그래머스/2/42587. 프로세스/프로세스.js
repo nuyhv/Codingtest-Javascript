@@ -1,5 +1,5 @@
 function solution(priorities, location) {
-    let answer = 0;
+    let answer = 0
     const queue = priorities.map((priority, idx) => ({priority, idx}));
     
     while (queue.length > 0) {
@@ -12,6 +12,5 @@ function solution(priorities, location) {
         }
     }
     
-    console.log(queue);
     return answer;
 }
