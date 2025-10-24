@@ -1,5 +1,5 @@
 function solution(bridge_length, weight, truck_weights) {
-    let time = 0;
+    let time = 0
     const queue = [];
     
     while (queue.length > 0 || truck_weights.length > 0) {
