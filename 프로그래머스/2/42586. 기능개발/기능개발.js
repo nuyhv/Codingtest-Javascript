@@ -1,5 +1,5 @@
 function solution(progresses, speeds) {
-    const answer = [];
+    const answer = []
     let days = 0;
     let count = 0;
 
@@ -21,5 +21,5 @@ function solution(progresses, speeds) {
         answer.push(count);
     }
 
-    return answer;
+    return answer
 }
