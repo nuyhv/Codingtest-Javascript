@@ -4,7 +4,7 @@ function solution(numbers) {
     
     for (let i = 0; i < len; i++) {
         for (let j = 0; j < len; j++) {
-            if (i !== j) answer.push(numbers[i] + numbers[j]);
+            if (i !== j) answer.push(numbers[i] + numbers[j])
         }
     }
     
