@@ -1,5 +1,5 @@
 function solution(maps) {
-    const row = maps.length;
+    const row = maps.length
     const col = maps[0].length;
     const dx = [-1, 0, 1, 0];
     const dy = [0, 1, 0, -1];
