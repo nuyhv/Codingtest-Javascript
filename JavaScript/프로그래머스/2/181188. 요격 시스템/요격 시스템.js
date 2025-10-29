@@ -1,5 +1,5 @@
 function solution(targets) {
-    var answer = 1;
+    var answer = 1
     targets.sort((a, b) => b[0] - a[0]);
     let ic = targets[0][0];
     
