@@ -1,5 +1,5 @@
 function solution(k, tangerine) {
-    const countMap = new Map();
+    const countMap = new Map()
     
     for (const size of tangerine) {
         countMap.set(size, (countMap.get(size) || 0) + 1);
