@@ -1,6 +1,6 @@
 function solution(today, terms, privacies) {
     const term = {}
-    const expired = [];
+    const expired = []
     
     terms.forEach(data => {
         const [type, month] = data.split(' ');
