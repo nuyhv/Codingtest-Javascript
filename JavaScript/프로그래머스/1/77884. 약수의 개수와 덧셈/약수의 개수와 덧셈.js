@@ -6,11 +6,11 @@ function solution(left, right) {
 
     for (let i = 1; i <= n; i++) {
         if (n % i === 0) {
-            divisors.push(i);
+            divisors.push(i)
         }
     }
 
-    return divisors;
+    return divisors
     }
     
     for (let i = left; i <= right; i++) {
