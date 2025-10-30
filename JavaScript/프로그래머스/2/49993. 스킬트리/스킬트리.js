@@ -1,7 +1,7 @@
 function solution(skill, skill_trees) {
-    var answer = 0;
+    var answer = 0
     
-    const skillArr = skill.split('');
+    const skillArr = skill.split('')
     
     for (const skills of skill_trees) {
         const filteredSkills = skills.split('').filter(char => skillArr.includes(char));
@@ -10,5 +10,5 @@ function solution(skill, skill_trees) {
             answer++;
         }
     }    
-    return answer;
+    return answer
 }
