@@ -1,5 +1,5 @@
 function solution(numbers, target) {
-    let answer = 0;
+    let answer = 0
     const len = numbers.length;
     
     const dfs = (i, cur) => {
