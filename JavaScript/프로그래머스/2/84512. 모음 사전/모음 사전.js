@@ -5,7 +5,7 @@ function solution(word) {
     let pos = 0
 
     for (let i = 0; i < word.length; i++) {
-        const index = dic.indexOf(word[i]);
+        const index = dic.indexOf(word[i])
         pos += value[i] * index + 1
     }
 
