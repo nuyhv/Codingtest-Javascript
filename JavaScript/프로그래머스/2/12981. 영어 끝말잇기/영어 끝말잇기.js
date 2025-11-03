@@ -1,6 +1,6 @@
 function solution(n, words) {
     const usedWords = new Set()
-    let prevWord = ""; 
+    let prevWord = ""
 
     for (let i = 0; i < words.length; i++) {
         const word = words[i];
