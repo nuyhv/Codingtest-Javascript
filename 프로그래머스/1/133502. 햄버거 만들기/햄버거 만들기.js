@@ -1,5 +1,5 @@
 function solution(ingredient) {
-    let count = 0;
+    let count = 0
     let stack = [];
 
     for (let i = 0; i < ingredient.length; i++) {
@@ -11,5 +11,5 @@ function solution(ingredient) {
         }
     }
 
-    return count;
+    return count
 }
