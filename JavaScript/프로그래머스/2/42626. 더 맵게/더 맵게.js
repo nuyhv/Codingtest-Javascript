@@ -1,7 +1,7 @@
 function solution(scoville, K) {
     class MinHeap {
         constructor() {
-            this.heap = [];
+            this.heap = []
         }
 
         push(value) {
@@ -22,7 +22,7 @@ function solution(scoville, K) {
                 this.heapifyDown();
             }
 
-            return root;
+            return root
         }
 
         isEmpty() {
