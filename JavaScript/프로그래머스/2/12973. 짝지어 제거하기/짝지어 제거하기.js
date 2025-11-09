@@ -7,5 +7,5 @@ function solution(s) {
             stack.push(char);
         }
     }
-    return stack.length === 0 ? 1 : 0;
+    return stack.length === 0 ? 1 : 0
 }
