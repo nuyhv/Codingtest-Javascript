@@ -1,7 +1,7 @@
 function solution(maps) {
     const row = maps.length
     const col = maps[0].length
-    const dx = [-1, 0, 1, 0];
+    const dx = [-1, 0, 1, 0]
     const dy = [0, 1, 0, -1];
     
     const q = [[0, 0, 1]]; 
