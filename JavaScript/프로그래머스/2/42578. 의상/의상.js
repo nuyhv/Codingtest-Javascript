@@ -1,5 +1,5 @@
 function solution(clothes) {
-    let types = {};
+    let types = {}
     let result = 1;
 
     clothes.forEach((v) => (types[v[1]] = (types[v[1]] || 0) + 1));
