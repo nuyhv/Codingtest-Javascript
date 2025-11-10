@@ -25,7 +25,7 @@ function solution(name) {
         }
     }
 
-    answer += minMoves;
+    answer += minMoves
 
     if (name === 'A'.repeat(name.length)) {
         return 0;
