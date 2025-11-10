@@ -1,5 +1,5 @@
 function solution(n, lost, reserve) {
-    const clothes = Array(n).fill(1);
+    const clothes = Array(n).fill(1)
     lost.map(lost => clothes[lost - 1] = 0);
     
     reserve.map(reserve => clothes[reserve - 1] += 1);
