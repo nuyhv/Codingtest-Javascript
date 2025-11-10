@@ -1,5 +1,5 @@
 function solution(people, limit) {
-    var boat = 0;
+    var boat = 0
     let i = 0;
     let j = people.length - 1;
 
