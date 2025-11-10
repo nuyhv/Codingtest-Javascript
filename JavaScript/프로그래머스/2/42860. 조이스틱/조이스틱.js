@@ -5,7 +5,7 @@ function solution(name) {
         return Math.min(fromA, fromZ);
     }
 
-    let answer = 0;
+    let answer = 0
 
     for (let i = 0; i < name.length; i++) {
         answer += getCharMoveCount(name[i]);
