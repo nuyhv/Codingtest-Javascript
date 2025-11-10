@@ -17,7 +17,7 @@ function solution(board, moves) {
 
     const len = board.length;
     let bucket = [];
-    let count = 0;
+    let count = 0
 
     for (let i = 0; i < moves.length; i++) {
         const bNum = moves[i] - 1;
@@ -32,5 +32,5 @@ function solution(board, moves) {
         }
     }
 
-    return count;
+    return count
 }
