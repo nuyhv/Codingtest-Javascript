@@ -14,7 +14,7 @@ function solution(s) {
         }
     }
     
-    if (stack.length !== 0) count ++;
+    if (stack.length !== 0) count ++
     
     return count
 }
