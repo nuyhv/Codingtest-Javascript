@@ -15,7 +15,7 @@ function solution(today, terms, privacies) {
         const [ty, tm, td] = today.split('.');
         
         if (convertToDay(+y, +m, +d) + term[t] <= convertToDay(+ty, +tm, +td)) {
-            expired.push(i + 1);
+            expired.push(i + 1)
         }
     }
     return expired
