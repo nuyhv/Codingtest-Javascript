@@ -1,5 +1,5 @@
 function solution(t, p) {
-    const len = p.length;
+    const len = p.length
     let arr = [];
     let count = 0;
     
