@@ -1,6 +1,6 @@
 function solution(k, score) {
     const result = []
-    const HOF = [];
+    const HOF = []
     
     for (let i = 0; i < score.length; i++) {
         if (i < k) HOF.push(score[i]);
