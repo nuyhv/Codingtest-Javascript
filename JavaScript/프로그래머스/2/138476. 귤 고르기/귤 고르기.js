@@ -2,7 +2,7 @@ function solution(k, tangerine) {
     const countMap = new Map()
     
     for (const size of tangerine) {
-        countMap.set(size, (countMap.get(size) || 0) + 1);
+        countMap.set(size, (countMap.get(size) || 0) + 1)
     }
     
     const counts = [...countMap.values()].sort((a, b) => b - a);
@@ -15,5 +15,5 @@ function solution(k, tangerine) {
         if (total >= k) break;
     }
     
-    return varieties;
+    return varieties
 }
