@@ -3,7 +3,7 @@ function solution(s) {
     let count = 0
     
     for(let i = 0; i < s.length; i += 1){
-        stack.push(s[i]);
+        stack.push(s[i])
         
         const same = stack.filter((item) => item === stack[0]);
         const diff = stack.filter((item) => item !== stack[0]);
