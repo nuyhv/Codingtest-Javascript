@@ -12,7 +12,7 @@ function solution(survey, choices) {
     for (let i = 0; i < choices.length; i++) {
         const [left, right] = surv[i];
 
-        let choice = choices[i]; 
+        let choice = choices[i];
 
         switch (choice) { 
             case 1: info[left] += 3; break;
