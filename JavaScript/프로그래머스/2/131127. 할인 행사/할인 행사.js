@@ -1,7 +1,7 @@
 function solution(want, number, discount) {
     let wants = {}
     for (let i = 0; i < want.length; i++) {
-        wants[want[i]] = number[i];
+        wants[want[i]] = number[i]
     }
 
     let numDays = 10;
