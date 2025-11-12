@@ -1,5 +1,5 @@
 function solution(id_list, report, k) {
-    const userInfo = id_list.map(id => ({ id, reported: [], mailCount: 0, warnCount: 0 }));
+    const userInfo = id_list.map(id => ({ id, reported: [], mailCount: 0, warnCount: 0 }))
 
     const reportList = [...new Set(report)].map(str => str.split(' '));
 
