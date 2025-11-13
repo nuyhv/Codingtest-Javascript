@@ -7,7 +7,7 @@ function solution(numbers, hand) {
     }
 
     let leftPos = '*'
-    let rightPos = '#';
+    let rightPos = '#'
 
     const getDistance = (pos1, pos2) => {
         const [x1, y1] = keypad[pos1];
