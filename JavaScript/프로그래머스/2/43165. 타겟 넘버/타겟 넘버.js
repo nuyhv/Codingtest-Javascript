@@ -1,6 +1,6 @@
 function solution(numbers, target) {
     let answer = 0
-    const len = numbers.length;
+    const len = numbers.length
     
     const dfs = (i, cur) => {
         if (i < len) {
