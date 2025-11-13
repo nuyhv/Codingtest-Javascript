@@ -10,7 +10,7 @@ function solution(board, moves) {
             }
         }
 
-        return result.map(row => row.filter(element => element !== 0));
+        return result.map(row => row.filter(element => element !== 0))
     }
 
     let newBoard = transpose(board);
