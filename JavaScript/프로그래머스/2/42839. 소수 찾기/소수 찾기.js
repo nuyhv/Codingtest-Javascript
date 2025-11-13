@@ -1,5 +1,5 @@
 function solution(numbers) {
-    const numberSet = new Set();
+    const numberSet = new Set()
 
     function generateCombinations(prefix, str) {
         if (prefix.length > 0) {
