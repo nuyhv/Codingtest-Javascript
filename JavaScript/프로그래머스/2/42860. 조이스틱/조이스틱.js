@@ -2,7 +2,7 @@ function solution(name) {
     function getCharMoveCount(char) {
         const fromA = char.charCodeAt(0) - 'A'.charCodeAt(0)
         const fromZ = 'Z'.charCodeAt(0) - char.charCodeAt(0) + 1
-        return Math.min(fromA, fromZ);
+        return Math.min(fromA, fromZ)
     }
 
     let answer = 0
