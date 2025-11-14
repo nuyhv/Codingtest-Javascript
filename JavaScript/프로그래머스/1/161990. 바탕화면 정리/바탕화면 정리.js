@@ -2,8 +2,8 @@ function solution(wallpaper) {
     const rows = wallpaper.length
     const cols = wallpaper[0].length
 
-    let lux = Infinity, luy = Infinity;
-    let rdx = -1, rdy = -1;
+    let lux = Infinity, luy = Infinity
+    let rdx = -1, rdy = -1
 
     for (let i = 0; i < rows; i++) {
         for (let j = 0; j < cols; j++) {
