@@ -1,5 +1,5 @@
 function solution(keymap, targets) {
-    const answer = [];
+    const answer = []
     const map = new Map();
     
     for (const key of keymap) {
