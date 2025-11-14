@@ -13,5 +13,5 @@ function solution(name, yearning, photo) {
     }
     
     console.log(name, yearning, photo, ans)
-    return ans;
+    return ans
 }
