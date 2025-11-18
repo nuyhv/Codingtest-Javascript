@@ -16,7 +16,7 @@ function solution(board, moves) {
     let newBoard = transpose(board);
 
     const len = board.length;
-    let bucket = [];
+    let bucket = []
     let count = 0
 
     for (let i = 0; i < moves.length; i++) {
