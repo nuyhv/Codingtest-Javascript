@@ -20,5 +20,5 @@ function solution(left, right) {
             answer -= i;
         }
     }
-    return answer;
+    return answer
 }
