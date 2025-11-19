@@ -30,5 +30,5 @@ function solution(survey, choices) {
         (info.J >= info.M ? 'J' : 'M') +
         (info.A >= info.N ? 'A' : 'N');
     
-    return answer;
+    return answer
 }
