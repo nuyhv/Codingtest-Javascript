@@ -16,7 +16,7 @@ function solution(id_list, report, k) {
 
     const banned = userInfo
         .filter(user => user.warnCount >= k)
-        .map(user => user.id);
+        .map(user => user.id)
     
     userInfo.forEach(data => {
         data.reported.forEach(reportedId => {
