@@ -30,5 +30,5 @@ function solution(s) {
         }
     }
 
-    return parseInt(answer, 10);
+    return parseInt(answer, 10)
 }
