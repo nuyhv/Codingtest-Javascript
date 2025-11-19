@@ -1,6 +1,6 @@
 function solution(X, Y) {
     let xMap = Array(10).fill(0)
-    let yMap = Array(10).fill(0);
+    let yMap = Array(10).fill(0)
     let answer = '';
     
     for (const xNum of X) {
