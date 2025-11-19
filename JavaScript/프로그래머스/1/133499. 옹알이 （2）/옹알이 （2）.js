@@ -7,5 +7,5 @@ function solution(babbling) {
             answer++;
         }
     }
-    return answer;
+    return answer
 }
