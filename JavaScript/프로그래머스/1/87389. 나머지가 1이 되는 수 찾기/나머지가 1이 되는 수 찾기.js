@@ -4,5 +4,5 @@ function solution(n) {
     while (n % x !== 1) {
         x++
     }
-    return x;
+    return x
 }
