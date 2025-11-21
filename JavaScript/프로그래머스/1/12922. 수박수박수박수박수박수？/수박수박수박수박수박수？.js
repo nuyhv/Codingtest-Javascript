@@ -1,5 +1,5 @@
 function solution(n) {
-    let answer = '';
+    let answer = ''
     
     let i = 0;
     while (i < n) {
@@ -8,5 +8,5 @@ function solution(n) {
         i++;
     }
     
-    return answer;
+    return answer
 }
