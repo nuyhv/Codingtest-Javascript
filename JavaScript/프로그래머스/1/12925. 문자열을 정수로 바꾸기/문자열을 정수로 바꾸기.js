@@ -1,3 +1,3 @@
 function solution(s) {
-    return BigInt(s);
+    return BigInt(s)
 }
