@@ -11,5 +11,5 @@ function solution(d, budget) {
         }
     }
 
-    return count;
+    return count
 }
