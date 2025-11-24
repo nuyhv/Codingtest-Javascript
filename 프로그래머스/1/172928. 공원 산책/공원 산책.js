@@ -1,5 +1,5 @@
 function solution(park, routes) {
-    let start = [];
+    let start = []
     for (let i = 0; i < park.length; i++) {
         if (park[i].includes('S')) {
             start = [i, park[i].indexOf('S')];
