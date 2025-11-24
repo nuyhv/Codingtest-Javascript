@@ -1,9 +1,9 @@
 function solution(x, y, n) {
-    if (x === y) return 0;  
+    if (x === y) return 0
 
-    let currentLevel = new Set([x]);
-    const visited = new Set([x]);
-    let operations = 0;
+    let currentLevel = new Set([x])
+    const visited = new Set([x])
+    let operations = 0
 
     while (currentLevel.size > 0) {
         const nextLevel = new Set();
@@ -22,8 +22,8 @@ function solution(x, y, n) {
                 }
             }
         }
-        currentLevel = nextLevel;
+        currentLevel = nextLevel
     }
 
-    return -1;
+    return -1
 }
