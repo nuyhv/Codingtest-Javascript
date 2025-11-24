@@ -1,5 +1,5 @@
 function solution(name, yearning, photo) {
-    let ans = [];
+    let ans = []
     
     for (const people of photo) {
         let score = 0;
@@ -12,6 +12,5 @@ function solution(name, yearning, photo) {
         ans.push(score)
     }
     
-    console.log(name, yearning, photo, ans)
-    return ans;
+    return ans
 }
