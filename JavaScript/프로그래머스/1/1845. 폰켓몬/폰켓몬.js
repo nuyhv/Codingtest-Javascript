@@ -1,5 +1,5 @@
 function solution(nums) {
-    const deduplication = new Set(nums);
+    const deduplication = new Set(nums)
     const maxSelect = nums.length / 2
 
     console.log(deduplication)
