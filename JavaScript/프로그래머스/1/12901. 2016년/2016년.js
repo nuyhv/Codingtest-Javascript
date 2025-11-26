@@ -1,5 +1,5 @@
 function solution(a, b) {
-    const days = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"];
+    const days = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"]
     
     const startDate = new Date("2016-01-01");
     
