@@ -4,7 +4,7 @@ function solution(n, m) {
         return getGcd(b, a % b);
     }
     const gcd = getGcd(n, m);
-    const lcm = Math.abs(n * m) / gcd;
+    const lcm = Math.abs(n * m) / gcd
     
     return [gcd, lcm]
 }
