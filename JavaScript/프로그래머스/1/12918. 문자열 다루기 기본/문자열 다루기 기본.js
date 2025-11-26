@@ -6,5 +6,5 @@ function solution(s) {
             }
         }
         return true
-    } else return false;
+    } else return false
 }
