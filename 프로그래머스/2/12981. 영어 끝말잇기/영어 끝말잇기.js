@@ -1,6 +1,6 @@
 function solution(n, words) {
-    const usedWords = new Set();
-    let prevWord = ""; 
+    const usedWords = new Set()
+    let prevWord = ""
 
     for (let i = 0; i < words.length; i++) {
         const word = words[i];
@@ -14,9 +14,9 @@ function solution(n, words) {
             return [player, turn];
         }
 
-        usedWords.add(word); 
+        usedWords.add(word);
         prevWord = word; 
     }
-
-    return [0, 0]; 
+    
+    return [0, 0]
 }
