@@ -1,7 +1,7 @@
 function solution(n) {
-    var ans = [];
+    var ans = []
     
-    n = String(n);
+    n = String(n)
     
     for (let i = n.length - 1; i >= 0; i--) {
         console.log(n[i]);
